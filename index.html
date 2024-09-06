@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <header class="app-header">
+                <h1>Weather App</h1>
+            </header>
+            
+            <div class="search-bar">
+                <div class="search-logo">
+                    <input type="text" placeholder="Enter City" spellcheck="false">
+                </div>
+                <div class="search-icon">
+                    <button><img src="images\search.png" alt=""></button>
+                </div>
+            </div>
+            
+            <div class="weather">
+                <img src="images\rain.png" class="weather-icon">
+                <p class="weather-desc">Clouds</p>
+                <h1 class="temp">22°</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="humidity">
+                        <img src="images\humidity.png" alt="">
+                        <p class="humidity-perc">53%</p>
+                        <p class="humidity-p">Humidity</p>
+                    </div>
+                    <div class="wind-speed">
+                        <img src="images\wind.png" alt="">
+                        <p class="wind-s">5.66km/h</p>
+                        <p class="wind-p">Wind Speed</p>
+                    </div>
+                    <div class="pressure">
+                        <img src="images\pressure.png" alt="">
+                        <p class="atm-pressure">1013 hpa</p>
+                        <p class="pressure-p">Pressure</p>
+                    </div>
+                    <div class="sea-level">
+                        <img src="images\sea.png" alt="">
+                        <p class="sea-l">1013 hpa</p>
+                        <p class="sea-p">Sea Level</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="app-footer">
+                <p>&copy; 2024 Weather App</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
